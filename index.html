@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zefanya Oktafiano - Graphic Designer & Artwork Editor</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Particle Canvas -->
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="logo">OKTAFIANO.</div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Beranda</a></li>
+            <li><a href="#tentang">Tentang</a></li>
+            <li><a href="#keahlian">Keahlian</a></li>
+            <li><a href="#pengalaman">Pengalaman</a></li>
+            <li><a href="#galeri">Galeri</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+        </ul>
+        <div class="menu-toggle" id="menuToggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <i class="fas fa-palette"></i>
+                Graphic Designer & Artwork Editor
+            </div>
+            <h1>Zefanya <span>Oktafiano</span></h1>
+            <p class="hero-subtitle">Mengubah ide menjadi desain visual yang memukau dengan pengalaman 6+ tahun di industri sablon kaos</p>
+            <div class="cta-buttons">
+                <a href="#galeri" class="btn btn-primary">
+                    <i class="fas fa-images"></i> Lihat Karya
+                </a>
+                <a href="#kontak" class="btn btn-secondary">
+                    <i class="fas fa-envelope"></i> Hubungi Saya
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-number">6+</div>
+                    <div class="stat-label">Tahun</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">1000+</div>
+                    <div class="stat-label">Proyek</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">1000+</div>
+                    <div class="stat-label">Klien</div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="tentang">
+        <div class="section-title">
+            <h2>Tentang <span>Saya</span></h2>
+            <p>Mengenal lebih dekat perjalanan dan passion saya dalam dunia desain grafis</p>
+        </div>
+        <div class="about-content">
+            <p class="about-text">
+                Graphic Designer & Artwork Editor dengan pengalaman lebih dari <strong>6 tahun</strong> di industri sablon kaos, 
+                mencakup pengolahan desain siap cetak dan pembuatan desain custom sesuai kebutuhan klien. 
+                Saya berkomitmen untuk menghasilkan karya berkualitas tinggi dengan memperhatikan setiap detail 
+                mulai dari konsep hingga hasil akhir.
+            </p>
+            <div class="about-features">
+                <div class="feature-card">
+                    <i class="fas fa-pen-nib"></i>
+                    <h3>Desain Custom</h3>
+                    <p>Membuat desain unik sesuai kebutuhan dan identitas brand Anda</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-print"></i>
+                    <h3>Siap Cetak</h3>
+                    <p>File berkualitas tinggi yang siap untuk proses produksi</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Cepat & Tepat</h3>
+                    <p>Pengerjaan efisien tanpa mengorbankan kualitas hasil</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-heart"></i>
+                    <h3>Detail Oriented</h3>
+                    <p>Memperhatikan setiap detail untuk hasil terbaik</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="keahlian">
+        <div class="section-title">
+            <h2>Keahlian <span>Saya</span></h2>
+            <p>Software dan tools yang saya kuasai untuk menghasilkan karya terbaik</p>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <div class="skill-header">
+                    <span class="skill-name"><i class="fas fa-vector-square"></i> CorelDRAW</span>
+                    <span class="skill-percent">98%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-width="98"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-header">
+                    <span class="skill-name"><i class="fas fa-image"></i> Photoshop</span>
+                    <span class="skill-percent">95%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-width="95"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-header">
+                    <span class="skill-name"><i class="fas fa-paint-brush"></i> Canva</span>
+                    <span class="skill-percent">95%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-width="95"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-header">
+                    <span class="skill-name"><i class="fas fa-bezier-curve"></i> Illustrator</span>
+                    <span class="skill-percent">90%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-width="90"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <div class="skill-header">
+                    <span class="skill-name"><i class="fas fa-robot"></i> AI Design Tools</span>
+                    <span class="skill-percent">90%</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" data-width="90"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="pengalaman">
+        <div class="section-title">
+            <h2>Riwayat <span>Pengalaman</span></h2>
+            <p>Perjalanan karir saya dalam dunia desain grafis dan industri kreatif</p>
+        </div>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <div>
+                            <div class="timeline-title">Desain Grafis</div>
+                            <div class="timeline-company">Sablon Kaos Manado</div>
+                        </div>
+                        <div class="timeline-date">Sep 2019 - Jan 2026</div>
+                    </div>
+                    <div class="timeline-desc">
+                        <ul>
+                            <li>Membuat dan menyiapkan desain visual siap cetak dengan memperhatikan warna, resolusi dan layout agar sesuai standar sablon digital.</li>
+                            <li>Mengoptimalkan proses pra-cetak hingga produksi dengan melakukan penyesuaian desain, memastikan file siap cetak, serta menjaga kualitas hasil sablon agar sesuai kebutuhan klien.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <div>
+                            <div class="timeline-title">Salesman</div>
+                            <div class="timeline-company">Sedap Jaya</div>
+                        </div>
+                        <div class="timeline-date">Jun 2019 - Sep 2019</div>
+                    </div>
+                    <div class="timeline-desc">
+                        <ul>
+                            <li>Mencapai target penjualan dengan strategi promosi, presentasi produk, dan negosiasi yang efektif.</li>
+                            <li>Mengembangkan dan menjaga hubungan dengan pelanggan untuk meningkatkan kepercayaan, kebutuhan repeat order, serta memperluas jaringan penjualan.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="galeri">
+        <div class="section-title">
+            <h2>Galeri <span>Karya</span></h2>
+            <p>Kumpulan hasil desain saya yang dikelompokkan berdasarkan kategori</p>
+        </div>
+        <div class="gallery-filters">
+            <button class="filter-btn active" data-filter="all">Semua</button>
+            <button class="filter-btn" data-filter="tshirt">T-Shirt Design</button>
+            <button class="filter-btn" data-filter="vector">Vector Design</button>
+            <button class="filter-btn" data-filter="typography">Typography</button>
+        </div>
+        <div class="gallery-grid">
+            <!-- T-Shirt Designs -->
+            <div class="gallery-item" data-category="tshirt" onclick="openLightbox(this)">
+                <img src="images/tshirt-1.jpg" alt="Octa.Fiano Tee">
+                <div class="gallery-view"><i class="fas fa-expand"></i></div>
+                <div class="gallery-overlay">
+                    <span class="gallery-category">T-Shirt Design</span>
+                    <h3 class="gallery-title">Octa.Fiano</h3>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="tshirt" onclick="openLightbox(this)">
+                <img src="images/tshirt-2.jpg" alt="Yesus Memberkati Tee">
+                <div class="gallery-view"><i class="fas fa-expand"></i></div>
+                <div class="gallery-overlay">
+                    <span class="gallery-category">T-Shirt Design</span>
+                    <h3 class="gallery-title">Yesus Memberkati</h3>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="tshirt" onclick="openLightbox(this)">
+                <img src="images/tshirt-3.jpg" alt="Pondos Kinatouanku Tee">
+                <div class="gallery-view"><i class="fas fa-expand"></i></div>
+                <div class="gallery-overlay">
+                    <span class="gallery-category">T-Shirt Design</span>
+                    <h3 class="gallery-title">Pondos Kinatouanku</h3>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="tshirt" onclick="openLightbox(this)">
+                <img src="images/tshirt-4.jpg" alt="KPA Manado Tee">
+                <div class="gallery-view"><i class="fas fa-expand"></i></div>
+                <div class="gallery-overlay">
+                    <span class="gallery-category">T-Shirt Design</span>
+                    <h3 class="gallery-title">KPA Manado selatan</h3>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="tshirt" onclick="openLightbox(this)">
+                <img src="images/tshirt-5.jpg" alt="Indonesia Tee">
+                <div class="gallery-view"><i class="fas fa-expand"></i></div>
+                <div class="gallery-overlay">
+                    <span class="gallery-category">T-Shirt Design</span>
+                    <h3 class="gallery-title">Indonesia</h3>
+                </div>
+            </div>
+            <!-- Vector Designs -->
+            <div class="gallery-item" data-category="vector" onclick="openLightbox(this)">
+                <img src="images/vector-1.jpg" alt="Pondos Art">
+                <div class="gallery-view"><i class="fas fa-expand"></i></div>
+                <div class="gallery-overlay">
+                    <span class="gallery-category">Vector Design</span>
+                    <h3 class="gallery-title">Pondos Art</h3>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="vector" onclick="openLightbox(this)">
+                <img src="images/vector-2.jpg" alt="Wanita tidak Bercerita">
+                <div class="gallery-view"><i class="fas fa-expand"></i></div>
+                <div class="gallery-overlay">
+                    <span class="gallery-category">Vector Design</span>
+                    <h3 class="gallery-title">Wanita tidak Bercerita</h3>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="vector" onclick="openLightbox(this)">
+                <img src="images/vector-3.jpg" alt="Blind Justice">
+                <div class="gallery-view"><i class="fas fa-expand"></i></div>
+                <div class="gallery-overlay">
+                    <span class="gallery-category">Vector Design</span>
+                    <h3 class="gallery-title">Blind Justice</h3>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="vector" onclick="openLightbox(this)">
+                <img src="images/vector-4.jpg" alt="GAMER">
+                <div class="gallery-view"><i class="fas fa-expand"></i></div>
+                <div class="gallery-overlay">
+                    <span class="gallery-category">Vector Design</span>
+                    <h3 class="gallery-title">GAMER</h3>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="vector" onclick="openLightbox(this)">
+                <img src="images/vector-5.jpg" alt="Yue Birthday">
+                <div class="gallery-view"><i class="fas fa-expand"></i></div>
+                <div class="gallery-overlay">
+                    <span class="gallery-category">Vector Design</span>
+                    <h3 class="gallery-title">Yue Birthday</h3>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="vector" onclick="openLightbox(this)">
+                <img src="images/vector-6.jpg" alt="desa peku'an">
+                <div class="gallery-view"><i class="fas fa-expand"></i></div>
+                <div class="gallery-overlay">
+                    <span class="gallery-category">Vector Design</span>
+                    <h3 class="gallery-title">Desa Peku'an</h3>
+                </div>
+            </div>
+            <!-- Typography Designs -->
+            <div class="gallery-item" data-category="typography" onclick="openLightbox(this)">
+                <img src="images/typo-1.jpg" alt="Sangihe Banuaku">
+                <div class="gallery-view"><i class="fas fa-expand"></i></div>
+                <div class="gallery-overlay">
+                    <span class="gallery-category">Typography</span>
+                    <h3 class="gallery-title">Sangihe Banuaku</h3>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="typography" onclick="openLightbox(this)">
+                <img src="images/typo-2.jpg" alt="Okta fiano">
+                <div class="gallery-view"><i class="fas fa-expand"></i></div>
+                <div class="gallery-overlay">
+                    <span class="gallery-category">Typography</span>
+                    <h3 class="gallery-title">Okta fiano</h3>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="typography" onclick="openLightbox(this)">
+                <img src="images/typo-3.jpg" alt="Indonesia">
+                <div class="gallery-view"><i class="fas fa-expand"></i></div>
+                <div class="gallery-overlay">
+                    <span class="gallery-category">Typography</span>
+                    <h3 class="gallery-title">Indonesia</h3>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="typography" onclick="openLightbox(this)">
+                <img src="images/typo-6.jpg" alt="Indonesia black">
+                <div class="gallery-view"><i class="fas fa-expand"></i></div>
+                <div class="gallery-overlay">
+                    <span class="gallery-category">Typography</span>
+                    <h3 class="gallery-title">Indonesia Black</h3>
+                </div>
+            </div>
+            <div class="gallery-item" data-category="typography" onclick="openLightbox(this)">
+                <img src="images/typo-7.jpg" alt="Indonesia white">
+                <div class="gallery-view"><i class="fas fa-expand"></i></div>
+                <div class="gallery-overlay">
+                    <span class="gallery-category">Typography</span>
+                    <h3 class="gallery-title">Indonesia White</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox" onclick="closeLightbox(event)">
+        <div class="lightbox-content">
+            <button class="lightbox-close" onclick="closeLightbox(event)">
+                <i class="fas fa-times"></i>
+            </button>
+            <img src="" alt="" id="lightboxImg">
+            <div class="lightbox-caption">
+                <h3 id="lightboxTitle"></h3>
+                <p id="lightboxCategory"></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section class="contact" id="kontak">
+        <div class="section-title">
+            <h2>Hubungi <span>Saya</span></h2>
+            <p>Tertarik untuk bekerja sama? Mari kita diskusikan proyek Anda</p>
+        </div>
+        <div class="contact-content">
+            <p class="contact-text">
+                Saya terbuka untuk berbagai kesempatan kolaborasi, mulai dari desain kaos custom, 
+                editing artwork, hingga proyek desain grafis lainnya.
+            </p>
+            <div class="contact-links">
+                <a href="mailto:oktafiano.digitals@email.com" class="contact-link" target="_blank" rel="noopener noreferrer">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email Saya</span>
+                </a>
+                <a href="https://wa.me/6285117003260" class="contact-link" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>WhatsApp</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-social">
+            <a href="https://www.instagram.com/octa.fiano/" class="social-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61553446141573" class="social-link" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+        </div>
+        <p>&copy; 2026 Zefanya Oktafiano. Dibuat dengan <span>❤</span> di Manado</p>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop" onclick="scrollToTop()">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js">
+    </script>
+</body>
+</html>
